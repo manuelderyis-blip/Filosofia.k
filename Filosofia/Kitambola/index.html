@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cientistas e Filosofia</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        nav {
+            background-color: #334155;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        section {
+            padding: 40px;
+            background-color: white;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #1e293b;
+        }
+
+        article {
+            margin-bottom: 30px;
+        }
+
+        img {
+            width: 100%;
+            max-width: 400px;
+            border-radius: 10px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #1e293b;
+            color: white;
+            padding: 10px;
+        }
+
+        #topo {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #334155;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            padding: 10px 15px;
+            cursor: pointer;
+        }
+
+        #topo:hover {
+            background-color: #1e40af;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Cientistas e Filosofia</h1>
+        <p>Explorando o pensamento, a ciência e a sabedoria</p>
+    </header>
+
+    <nav>
+        <a href="#filosofia">Filosofia</a>
+        <a href="#cientistas">Cientistas</a>
+        <a href="#noticias">Notícias</a>
+        <a href="#sobre">Sobre</a>
+        
+    </nav>
+
+    <section id="filosofia">
+        <h2>Filosofia</h2>
+
+        <article>
+            <h3><a href="https://pt.wikipedia.org/wiki/S%C3%B3crates" target="_blank">Sócrates</a></h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Socrates_Louvre.jpg" alt="Socrates">
+            <p>"Conhece-te a ti mesmo." — Um dos maiores pensadores da Grécia Antiga, Sócrates dedicou-se à busca da verdade e da ética.</p>
+        </article>
+        <article>
+            <h3><a href="https://en.wikipedia.org/wiki/Rubem_Alves" target="_blank">Rubem Elves</a>
+                <img src="Manuel.jpg" alt="">
+        </article>
+
+        <article>
+            <h3><a href="https://pt.wikipedia.org/wiki/Friedrich_Nietzsche" target="_blank">Nietzsche</a></h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Nietzsche187a.jpg" alt="Nietzsche">
+            <p>Filósofo alemão conhecido pelo conceito do "além-do-homem" e pela crítica à moral tradicional.</p>
+        </article>
+    </section>
+
+    <section id="cientistas">
+        <h2>Cientistas</h2>
+
+        <article>
+            <h3><a href="https://pt.wikipedia.org/wiki/Albert_Einstein" target="_blank">Albert Einstein</a></h3>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg" alt="Albert Einstein">
+            <p>Físico teórico que desenvolveu a Teoria da Relatividade. Um dos maiores gênios da história da ciência.</p>
+        </article>
+
+        <article>
+            <h3><a href="https://pt.wikipedia.org/wiki/Marie_Curie" target="_blank">Marie Curie</a></h3>
+            <img src="images.jpg" alt="">
+            <p>Pioneira na pesquisa sobre radioatividade, foi a primeira mulher a ganhar um Prêmio Nobel.</p>
+        </article>
+    </section>
+
+    <section id="noticias">
+        <h2>Notícias Recentes</h2>
+        <p>Em breve adicionaremos novidades sobre ciência e filosofia.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre o Site</h2>
+        <p>Este site foi criado para reunir ideias, pensamentos e descobertas de grandes mentes da humanidade — unindo filosofia e ciência.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Cientistas e Filosofia | Feito por Manuel Deryis</p>
+    </footer>
+
+    <button id="topo" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">↑</button>
+
+</body>
+</html>
